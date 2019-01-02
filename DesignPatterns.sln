@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Object Structural Patterns"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SingletonPattern", "Singleton Pattern\Singleton Pattern.vcxproj", "{A809BA26-5C1B-4C88-828C-E606484A8D30}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AdapterPattern", "AdapterPattern\AdapterPattern.vcxproj", "{1DBE9D80-68C2-4C06-9CE8-B91804D804B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -65,6 +67,14 @@ Global
 		{A809BA26-5C1B-4C88-828C-E606484A8D30}.Release|x64.Build.0 = Release|x64
 		{A809BA26-5C1B-4C88-828C-E606484A8D30}.Release|x86.ActiveCfg = Release|Win32
 		{A809BA26-5C1B-4C88-828C-E606484A8D30}.Release|x86.Build.0 = Release|Win32
+		{1DBE9D80-68C2-4C06-9CE8-B91804D804B9}.Debug|x64.ActiveCfg = Debug|x64
+		{1DBE9D80-68C2-4C06-9CE8-B91804D804B9}.Debug|x64.Build.0 = Debug|x64
+		{1DBE9D80-68C2-4C06-9CE8-B91804D804B9}.Debug|x86.ActiveCfg = Debug|Win32
+		{1DBE9D80-68C2-4C06-9CE8-B91804D804B9}.Debug|x86.Build.0 = Debug|Win32
+		{1DBE9D80-68C2-4C06-9CE8-B91804D804B9}.Release|x64.ActiveCfg = Release|x64
+		{1DBE9D80-68C2-4C06-9CE8-B91804D804B9}.Release|x64.Build.0 = Release|x64
+		{1DBE9D80-68C2-4C06-9CE8-B91804D804B9}.Release|x86.ActiveCfg = Release|Win32
+		{1DBE9D80-68C2-4C06-9CE8-B91804D804B9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,6 +85,7 @@ Global
 		{4747BBD6-876F-4C11-833F-C0A8D98B51B2} = {F2DC19E9-559A-42C1-AD16-25292D784556}
 		{F304AD18-7FEE-43DD-B0F3-A6AFE32A7CCF} = {F2DC19E9-559A-42C1-AD16-25292D784556}
 		{A809BA26-5C1B-4C88-828C-E606484A8D30} = {F2DC19E9-559A-42C1-AD16-25292D784556}
+		{1DBE9D80-68C2-4C06-9CE8-B91804D804B9} = {F6ECF90D-93AB-4032-88F4-58ECC49A8CDF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {98B6CC5A-F3BB-49F0-91BC-C208219BA49D}
