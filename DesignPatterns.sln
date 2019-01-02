@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28307.168
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AbstractFactoryPattern", "DesignPatterns\DesignPatterns.vcxproj", "{05E9DC88-7892-4060-B82A-EF1214D2C968}"
 EndProject
@@ -10,6 +10,12 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BuilderPattern", "BuilderPattern\BuilderPattern.vcxproj", "{4747BBD6-876F-4C11-833F-C0A8D98B51B2}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.vcxproj", "{F304AD18-7FEE-43DD-B0F3-A6AFE32A7CCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Patterns", "Creational Patterns", "{F2DC19E9-559A-42C1-AD16-25292D784556}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Object Structural Patterns", "Object Structural Patterns", "{F6ECF90D-93AB-4032-88F4-58ECC49A8CDF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SingletonPattern", "Singleton Pattern\Singleton Pattern.vcxproj", "{A809BA26-5C1B-4C88-828C-E606484A8D30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,9 +57,24 @@ Global
 		{F304AD18-7FEE-43DD-B0F3-A6AFE32A7CCF}.Release|x64.Build.0 = Release|x64
 		{F304AD18-7FEE-43DD-B0F3-A6AFE32A7CCF}.Release|x86.ActiveCfg = Release|Win32
 		{F304AD18-7FEE-43DD-B0F3-A6AFE32A7CCF}.Release|x86.Build.0 = Release|Win32
+		{A809BA26-5C1B-4C88-828C-E606484A8D30}.Debug|x64.ActiveCfg = Debug|x64
+		{A809BA26-5C1B-4C88-828C-E606484A8D30}.Debug|x64.Build.0 = Debug|x64
+		{A809BA26-5C1B-4C88-828C-E606484A8D30}.Debug|x86.ActiveCfg = Debug|Win32
+		{A809BA26-5C1B-4C88-828C-E606484A8D30}.Debug|x86.Build.0 = Debug|Win32
+		{A809BA26-5C1B-4C88-828C-E606484A8D30}.Release|x64.ActiveCfg = Release|x64
+		{A809BA26-5C1B-4C88-828C-E606484A8D30}.Release|x64.Build.0 = Release|x64
+		{A809BA26-5C1B-4C88-828C-E606484A8D30}.Release|x86.ActiveCfg = Release|Win32
+		{A809BA26-5C1B-4C88-828C-E606484A8D30}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05E9DC88-7892-4060-B82A-EF1214D2C968} = {F2DC19E9-559A-42C1-AD16-25292D784556}
+		{AF054F60-5B03-4CE5-821C-DF3CE6B89DFB} = {F2DC19E9-559A-42C1-AD16-25292D784556}
+		{4747BBD6-876F-4C11-833F-C0A8D98B51B2} = {F2DC19E9-559A-42C1-AD16-25292D784556}
+		{F304AD18-7FEE-43DD-B0F3-A6AFE32A7CCF} = {F2DC19E9-559A-42C1-AD16-25292D784556}
+		{A809BA26-5C1B-4C88-828C-E606484A8D30} = {F2DC19E9-559A-42C1-AD16-25292D784556}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {98B6CC5A-F3BB-49F0-91BC-C208219BA49D}
