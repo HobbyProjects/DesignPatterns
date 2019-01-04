@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AdapterPattern", "AdapterPa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BridgePattern", "BridgePattern\BridgePattern.vcxproj", "{628705CC-9AD0-42CF-AC75-306EDECA3613}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CompositePattern", "CompositePattern\CompositePattern.vcxproj", "{18E5E7A5-360B-48E2-804E-6B6B58066589}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -85,6 +87,14 @@ Global
 		{628705CC-9AD0-42CF-AC75-306EDECA3613}.Release|x64.Build.0 = Release|x64
 		{628705CC-9AD0-42CF-AC75-306EDECA3613}.Release|x86.ActiveCfg = Release|Win32
 		{628705CC-9AD0-42CF-AC75-306EDECA3613}.Release|x86.Build.0 = Release|Win32
+		{18E5E7A5-360B-48E2-804E-6B6B58066589}.Debug|x64.ActiveCfg = Debug|x64
+		{18E5E7A5-360B-48E2-804E-6B6B58066589}.Debug|x64.Build.0 = Debug|x64
+		{18E5E7A5-360B-48E2-804E-6B6B58066589}.Debug|x86.ActiveCfg = Debug|Win32
+		{18E5E7A5-360B-48E2-804E-6B6B58066589}.Debug|x86.Build.0 = Debug|Win32
+		{18E5E7A5-360B-48E2-804E-6B6B58066589}.Release|x64.ActiveCfg = Release|x64
+		{18E5E7A5-360B-48E2-804E-6B6B58066589}.Release|x64.Build.0 = Release|x64
+		{18E5E7A5-360B-48E2-804E-6B6B58066589}.Release|x86.ActiveCfg = Release|Win32
+		{18E5E7A5-360B-48E2-804E-6B6B58066589}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -97,6 +107,7 @@ Global
 		{A809BA26-5C1B-4C88-828C-E606484A8D30} = {F2DC19E9-559A-42C1-AD16-25292D784556}
 		{1DBE9D80-68C2-4C06-9CE8-B91804D804B9} = {F6ECF90D-93AB-4032-88F4-58ECC49A8CDF}
 		{628705CC-9AD0-42CF-AC75-306EDECA3613} = {F6ECF90D-93AB-4032-88F4-58ECC49A8CDF}
+		{18E5E7A5-360B-48E2-804E-6B6B58066589} = {F6ECF90D-93AB-4032-88F4-58ECC49A8CDF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {98B6CC5A-F3BB-49F0-91BC-C208219BA49D}
