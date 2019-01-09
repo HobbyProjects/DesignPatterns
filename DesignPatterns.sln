@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BridgePattern", "BridgePatt
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CompositePattern", "CompositePattern\CompositePattern.vcxproj", "{18E5E7A5-360B-48E2-804E-6B6B58066589}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.vcxproj", "{0F255754-A311-4715-A097-F7229BB760D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -95,6 +97,14 @@ Global
 		{18E5E7A5-360B-48E2-804E-6B6B58066589}.Release|x64.Build.0 = Release|x64
 		{18E5E7A5-360B-48E2-804E-6B6B58066589}.Release|x86.ActiveCfg = Release|Win32
 		{18E5E7A5-360B-48E2-804E-6B6B58066589}.Release|x86.Build.0 = Release|Win32
+		{0F255754-A311-4715-A097-F7229BB760D8}.Debug|x64.ActiveCfg = Debug|x64
+		{0F255754-A311-4715-A097-F7229BB760D8}.Debug|x64.Build.0 = Debug|x64
+		{0F255754-A311-4715-A097-F7229BB760D8}.Debug|x86.ActiveCfg = Debug|Win32
+		{0F255754-A311-4715-A097-F7229BB760D8}.Debug|x86.Build.0 = Debug|Win32
+		{0F255754-A311-4715-A097-F7229BB760D8}.Release|x64.ActiveCfg = Release|x64
+		{0F255754-A311-4715-A097-F7229BB760D8}.Release|x64.Build.0 = Release|x64
+		{0F255754-A311-4715-A097-F7229BB760D8}.Release|x86.ActiveCfg = Release|Win32
+		{0F255754-A311-4715-A097-F7229BB760D8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +118,7 @@ Global
 		{1DBE9D80-68C2-4C06-9CE8-B91804D804B9} = {F6ECF90D-93AB-4032-88F4-58ECC49A8CDF}
 		{628705CC-9AD0-42CF-AC75-306EDECA3613} = {F6ECF90D-93AB-4032-88F4-58ECC49A8CDF}
 		{18E5E7A5-360B-48E2-804E-6B6B58066589} = {F6ECF90D-93AB-4032-88F4-58ECC49A8CDF}
+		{0F255754-A311-4715-A097-F7229BB760D8} = {F6ECF90D-93AB-4032-88F4-58ECC49A8CDF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {98B6CC5A-F3BB-49F0-91BC-C208219BA49D}
